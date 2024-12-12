@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b026c965-7232-475e-aedb-2706fd532c46)# EPDW-AI
+# EPDW-AI
 EPDW AI Analytics
 
 Please find the sample benchmark datasets.
