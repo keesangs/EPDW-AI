@@ -21,6 +21,14 @@ There are 10 different benchmark datasets from each BIOS version:
     - Represents the best possible performance achievable with more extensive tuning.
    
 - **TPC-C MARIA DB**  
+  TPC-C MARIA DB benchmarks provide two primary metrics: 'NOPM' and 'TPM' values.  
+
+  - **NOPM**:  
+    - Represents New Orders Per Minute  
+    
+  - **TPM**:  
+    - Represents Transaction Per Minute
+
 
 Example query for Gen AI for result analysis:
  
