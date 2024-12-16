@@ -1,0 +1,1142 @@
+{
+    "_id" : "671f601c36dbb31f7708e83e",
+    "baselineInfo" : {
+        "isBasedLined" : false,
+        "name" : null
+    },
+    "sutInstanceMetadata" : {
+        "sutType" : "vm",
+        "geoLocation" : null,
+        "cloudProvider" : null,
+        "instanceType" : null
+    },
+    "entitlementChangeRequest" : {
+        "currentLevel" : [
+
+        ],
+        "levelToBeUpgraded" : [
+
+        ],
+        "requestedBy" : null,
+        "status" : null,
+        "comments" : null,
+        "approvers" : [
+
+        ]
+    },
+    "platformProfile" : {
+        "platform_profiler_version" : "5.1.0",
+        "platform_profiler_timestamp" : "2024-10-28 07:26 UTC",
+        "Summary" : {
+            "Server" : {
+                "Model" : "Standard PC (Q35 + ICH9, 2009)",
+                "SKU" : null,
+                "Manufacturer" : "AMD",
+                "Health" : "OK",
+                "CPUModel" : "AMD EPYC-Genoa Processor",
+                "Region" : null
+            },
+            "BIOS" : {
+                "BIOSVersion" : "WVOT4A23N",
+                "FirmwareVersion" : "sp5-irmg_v2.11.0.12",
+                "Microcode" : "0x1000065",
+                "BIOSWorkloadProfile" : null,
+                "AgesaVersion" : null,
+                "TransparentSME" : null,
+                "ThermalConfig" : null,
+                "TDP" : null,
+                "SR-IOVSupport" : null,
+                "SMTControl" : "Enabled",
+                "L1StridePrefetcher" : null,
+                "L1RegionPrefetcher" : null,
+                "LocalApicMode" : null,
+                "CorePerformanceBoost" : null,
+                "FmaxBoostLimitControl" : null,
+                "PowerProfile" : null,
+                "MemoryInterleaving" : null,
+                "MemoryRefreshRate" : null,
+                "ProcessorC-States" : null,
+                "3DV-Cache" : null,
+                "LastLevelCacheAsNUMANode" : null,
+                "NumaNodesPerSocket" : null,
+                "DeterminismSlider" : null,
+                "MaxMemoryClockSpeed" : null,
+                "L1StreamHwPrefetcher" : null,
+                "L2StreamHWprefetcher" : null,
+                "L2UpDownPrefetcher" : null,
+                "IOMMUSupport" : null,
+                "XGMILinkSpeed" : null,
+                "DataFabricCState" : null,
+                "DeterminismControl" : null,
+                "InfinityFabricPstate" : null,
+                "xGMIForceLinkWidth" : null,
+                "xGMIMaxLinkWidth" : null,
+                "GMIEncryptionControl" : null,
+                "xGMIEncryptionControl" : null,
+                "AlgorithmPerformanceBoostDisable" : null,
+                "VirtualizationSupport" : null,
+                "ACPIAutoConfiguration" : null,
+                "SecureMemoryEncryption" : null,
+                "AVX512" : null,
+                "MONITORandMWAIT" : null,
+                "PCIESpeedControl" : null,
+                "PCIELinkSpeed" : null
+            },
+            "CPU" : {
+                "Architecture" : "x86-64",
+                "Socket(s)" : "1",
+                "CPU(s)" : "64",
+                "Thread(s)PerCore" : "2",
+                "Core(s)PerSocket" : "32",
+                "CPUMaxMHz" : null,
+                "L3Cache" : "32 MiB (1 instance)"
+            },
+            "OS" : {
+                "SystemType" : "vm",
+                "HypervisorVendor" : "KVM",
+                "OperatingSystem" : "Ubuntu 24.04 LTS",
+                "Kernel" : "Linux 6.8.0-35-generic",
+                "NUMAnode(s)" : "1"
+            },
+            "Memory" : {
+                "DIMMSize" : "16 GiB",
+                "Manufacturer" : "QEMU",
+                "MemoryModuleType" : "DIMM RAM",
+                "OperatingSpeedMhz" : "Unknown",
+                "AllowedSpeedMHz" : "Unknown",
+                "Total" : "256 GiB"
+            },
+            "Network" : [
+                {
+                    "Name" : "enp1s0",
+                    "Product" : null,
+                    "Speed" : "Unknown!",
+                    "LinkDetected" : "yes"
+                }
+            ],
+            "Disk" : [
+                {
+                    "Name" : "vda",
+                    "Size" : "35G"
+                },
+                {
+                    "Name" : "vdb",
+                    "Size" : "500G"
+                }
+            ],
+            "Tunings" : {
+                "FrequencyBoost" : "Disabled",
+                "GccVersion" : "13.2.0",
+                "NumaBalancing" : "0",
+                "VMOvercommitMemory" : "0",
+                "VMSwappiness" : "60",
+                "VMDirtyRatio" : "20",
+                "VMDirtyBackgroundRatio" : "10",
+                "VMZoneReclaimMode" : "0",
+                "VMDropCaches" : null,
+                "StatInterval" : "1",
+                "NmiWatchdog" : "0",
+                "Watchdog" : "1",
+                "WatchdogThresh" : "10",
+                "RandomizeVaSpace" : "2",
+                "ScheduledRTPeriodUS" : "1000000",
+                "ScheduledRTRuntimeUS" : "950000",
+                "SchedulerAutoGroupEnabled" : "1",
+                "SchedulerCFSBandwidthSliceUS" : "5000",
+                "SchedulerChildRunsFirst" : null,
+                "SchedulerLatencyNS" : null,
+                "SchedulerMigrationCostNS" : null,
+                "SchedulerMinGranularityNS" : null,
+                "SchedulerNRMigrate" : null,
+                "SchedulerRRTimesliceMS" : "100",
+                "SchedulerStats" : "0",
+                "SchedulerTunableScaling" : null,
+                "SchedulerUtilClampedMax" : "1024",
+                "SchedulerUtilClampedMin" : "1024",
+                "SchedulerWakeupGranularityNS" : null,
+                "NetCoreSomaxconn" : "4096",
+                "KsmRun" : "0",
+                "TransparentHugepage" : "never",
+                "TransparentHugepageSize" : "2097152",
+                "TransparentHugepageDefrag" : "never",
+                "TransparentKHugepageDefrag" : "1",
+                "HugePagesTotal" : "0",
+                "HugePagesFree" : "0",
+                "Governor" : null,
+                "Driver" : null,
+                "TunedProfiles" : null,
+                "CmdLine" : "BOOT_IMAGE=/vmlinuz-6.8.0-35-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro serial console console=tty0 console=ttyS0",
+                "GLIBC" : "ldd (Ubuntu GLIBC 2.39-0ubuntu8.2) 2.39",
+                "Binutils" : "GNU ld (GNU Binutils for Ubuntu) 2.42",
+                "OpenSSL" : "OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)",
+                "CoreFileSize(Blocks)" : "0",
+                "DataSegSize(Kbytes)" : "unlimited",
+                "FileSize(Blocks)" : "unlimited",
+                "MaxLockedMemory(Kbytes)" : "32988332",
+                "MaxMemorySize(Kbytes)" : "unlimited",
+                "OpenFiles" : "1024",
+                "StackSize(Kbytes)" : "8192",
+                "CpuTime(Seconds)" : "unlimited",
+                "VirtualMemory(Kbytes)" : "unlimited"
+            },
+            "Vulnerability" : {
+                "GatherDataSampling" : "Not affected",
+                "ItlbMultihit" : "Not affected",
+                "L1tf" : "Not affected",
+                "Mds" : "Not affected",
+                "Meltdown" : "Not affected",
+                "MmioStaleData" : "Not affected",
+                "Retbleed" : "Not affected",
+                "SpecStoreBypass" : "Mitigation; Speculative Store Bypass disabled via prctl",
+                "SpectreV1" : "Mitigation; usercopy/swapgs barriers and __user pointer sanitization",
+                "SpectreV2" : "Mitigation; Enhanced / Automatic IBRS; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected",
+                "Srbds" : "Not affected",
+                "TsxAsyncAbort" : "Not affected"
+            },
+            "VMInstances" : {
+                "Count" : null
+            },
+            "ContainerOrchestration" : [
+
+            ]
+        },
+        "Chassis" : [
+            {
+                "ID" : "chassis",
+                "Manufacturer" : "AMD",
+                "Model" : "Standard PC (Q35 + ICH9, 2009)",
+                "PowerState" : "On",
+                "Health" : "OK",
+                "Systems" : [
+                    {
+                        "ID" : "system",
+                        "Manufacturer" : "AMD",
+                        "PowerState" : "On",
+                        "Model" : "AMD EPYC-Genoa Processor",
+                        "Count" : "1",
+                        "SKU" : null,
+                        "SystemType" : "Physical",
+                        "BIOS" : {
+                            "BIOSVersion" : "WVOT4A23N",
+                            "BIOSDate" : "04/01/2014",
+                            "FirmwareVersion" : "sp5-irmg_v2.11.0.12",
+                            "Attributes" : {
+                                "SCMVersion" : "0.53",
+                                "HPMVersion" : "0.0.7.7",
+                                "SMTControl" : "Enabled"
+                            }
+                        },
+                        "OS" : {
+                            "BIOS" : {
+                                "BIOSVendor" : "SeaBIOS",
+                                "BIOSVersion" : "1.16.3-debian-1.16.3-2",
+                                "BIOSDate" : "04/01/2014",
+                                "ProductName" : "Standard PC (Q35 + ICH9, 2009)"
+                            },
+                            "Uptime" : "0 days 0 hours 47 minutes",
+                            "SystemType" : "vm",
+                            "HypervisorVendor" : "KVM",
+                            "StaticHostname" : "volcano-5373-host-Ub24-vm",
+                            "OperatingSystem" : "Ubuntu 24.04 LTS",
+                            "Kernel" : "Linux 6.8.0-35-generic",
+                            "Architecture" : "x86-64",
+                            "VendorID" : "AuthenticAMD",
+                            "CPUFamily" : "25",
+                            "ModelCode" : "17",
+                            "Stepping" : "0",
+                            "CPU(s)" : "64",
+                            "On-lineCPU(s)List" : "0-63",
+                            "Thread(s)PerCore" : "2",
+                            "Core(s)PerSocket" : "32",
+                            "Socket(s)" : "1",
+                            "Model" : "AMD EPYC-Genoa Processor",
+                            "NUMAnode(s)" : "1",
+                            "FrequencyBoost" : "Disabled",
+                            "CPUMHz" : null,
+                            "CPUMaxMHz" : null,
+                            "CPUMinMHz" : null,
+                            "Virtualization" : "AMD-V",
+                            "L1dCache" : "1 MiB (32 instances)",
+                            "L1iCache" : "1 MiB (32 instances)",
+                            "L2Cache" : "32 MiB (32 instances)",
+                            "L3Cache" : "32 MiB (1 instance)",
+                            "ExternalName" : null,
+                            "InternalName" : null,
+                            "SKU" : null,
+                            "OPN" : null,
+                            "Package" : null,
+                            "CodeName" : "Zen4",
+                            "Region" : null,
+                            "microcode" : [
+                                "0x1000065"
+                            ],
+                            "Numa Node" : [
+                                {
+                                    "NUMA node0 CPU(s)" : "0-63"
+                                }
+                            ],
+                            "Memory" : [
+                                {
+                                    "type" : "Mem",
+                                    "total" : "251GiB",
+                                    "used" : "8.7GiB",
+                                    "free" : "243GiB",
+                                    "shared" : "5.3MiB",
+                                    "buff_cache" : "1.4GiB",
+                                    "available" : "242GiB"
+                                },
+                                {
+                                    "type" : "Swap",
+                                    "total" : "2.3GiB",
+                                    "used" : "0B",
+                                    "free" : "2.3GiB"
+                                },
+                                {
+                                    "type" : "Total",
+                                    "total" : "253GiB",
+                                    "used" : "8.7GiB",
+                                    "free" : "245GiB"
+                                }
+                            ],
+                            "VMs" : null,
+                            "Virsh List" : null,
+                            "Disk" : [
+                                {
+                                    "name" : "ubuntu--vg-ubuntu--lv",
+                                    "size" : "33G",
+                                    "type" : "lvm",
+                                    "mountpoints" : [
+                                        "/"
+                                    ]
+                                },
+                                {
+                                    "name" : "vda",
+                                    "size" : "35G",
+                                    "type" : "disk",
+                                    "mountpoints" : null
+                                },
+                                {
+                                    "name" : "vda1",
+                                    "size" : "1M",
+                                    "type" : "part",
+                                    "mountpoints" : null
+                                },
+                                {
+                                    "name" : "vda2",
+                                    "size" : "2G",
+                                    "type" : "part",
+                                    "mountpoints" : [
+                                        "/boot"
+                                    ]
+                                },
+                                {
+                                    "name" : "vda3",
+                                    "size" : "33G",
+                                    "type" : "part",
+                                    "mountpoints" : null
+                                },
+                                {
+                                    "name" : "vdb",
+                                    "size" : "500G",
+                                    "type" : "disk",
+                                    "mountpoints" : null
+                                },
+                                {
+                                    "name" : "vdb1",
+                                    "size" : "500G",
+                                    "type" : "part",
+                                    "mountpoints" : [
+                                        "/tpcc-data"
+                                    ]
+                                }
+                            ],
+                            "StorageInfo" : [
+                                {
+                                    "Name" : "scsi",
+                                    "description" : "SCSI storage controller",
+                                    "product" : "Virtio 1.0 block device",
+                                    "businfo" : "04:00.0",
+                                    "Numa Node" : "-1",
+                                    "CPUs" : "0-63",
+                                    "Manufacturer" : "Red Hat, Inc.",
+                                    "Slot" : null
+                                },
+                                {
+                                    "Name" : "scsi",
+                                    "description" : "SCSI storage controller",
+                                    "product" : "Virtio 1.0 block device",
+                                    "businfo" : "07:00.0",
+                                    "Numa Node" : "-1",
+                                    "CPUs" : "0-63",
+                                    "Manufacturer" : "Red Hat, Inc.",
+                                    "Slot" : null
+                                },
+                                {
+                                    "Name" : "sata",
+                                    "description" : "SATA controller",
+                                    "product" : "82801IR/IO/IH (ICH9R/DO/DH) 6 port SATA Controller [AHCI mode]",
+                                    "businfo" : "00:1f.2",
+                                    "Numa Node" : "-1",
+                                    "CPUs" : "0-63",
+                                    "Manufacturer" : "Intel Corporation",
+                                    "Slot" : null
+                                }
+                            ],
+                            "Network" : [
+                                {
+                                    "ifindex" : "1",
+                                    "ifname" : "lo",
+                                    "mtu" : "65536",
+                                    "Speed" : null,
+                                    "Duplex" : null,
+                                    "Link detected" : "yes",
+                                    "MAC-Address" : null,
+                                    "Driver" : null,
+                                    "DriverVersion" : null,
+                                    "FirmwareVersion" : null,
+                                    "Affinity (CPU:IRQs)" : null
+                                },
+                                {
+                                    "ifindex" : "2",
+                                    "ifname" : "enp1s0",
+                                    "mtu" : "1500",
+                                    "Speed" : "Unknown!",
+                                    "Duplex" : "Unknown! (255)",
+                                    "Link detected" : "yes",
+                                    "MAC-Address" : null,
+                                    "Driver" : null,
+                                    "DriverVersion" : null,
+                                    "FirmwareVersion" : null,
+                                    "Affinity (CPU:IRQs)" : null
+                                }
+                            ],
+                            "PCI" : [
+                                {
+                                    "Bus" : "01:00.0",
+                                    "Device" : "Virtio 1.0 network device",
+                                    "Class" : "network",
+                                    "Description" : "Ethernet controller",
+                                    "logicalname" : null,
+                                    "NumaNode" : "-1",
+                                    "CPUs" : "0-63",
+                                    "Manufacturer" : "Red Hat, Inc.",
+                                    "Slot" : null,
+                                    "Speed" : "33MHz",
+                                    "Width" : "64 bits",
+                                    "Status" : null
+                                }
+                            ],
+                            "Tunings" : {
+                                "GccVersion" : "13.2.0",
+                                "NumaBalancing" : "0",
+                                "VMOvercommitMemory" : "0",
+                                "VMSwappiness" : "60",
+                                "VMDirtyRatio" : "20",
+                                "VMDirtyBackgroundRatio" : "10",
+                                "VMZoneReclaimMode" : "0",
+                                "VMDropCaches" : null,
+                                "StatInterval" : "1",
+                                "NmiWatchdog" : "0",
+                                "Watchdog" : "1",
+                                "WatchdogThresh" : "10",
+                                "RandomizeVaSpace" : "2",
+                                "ScheduledRTPeriodUS" : "1000000",
+                                "ScheduledRTRuntimeUS" : "950000",
+                                "SchedulerAutoGroupEnabled" : "1",
+                                "SchedulerCFSBandwidthSliceUS" : "5000",
+                                "SchedulerChildRunsFirst" : null,
+                                "SchedulerLatencyNS" : null,
+                                "SchedulerMigrationCostNS" : null,
+                                "SchedulerMinGranularityNS" : null,
+                                "SchedulerNRMigrate" : null,
+                                "SchedulerRRTimesliceMS" : "100",
+                                "SchedulerStats" : "0",
+                                "SchedulerTunableScaling" : null,
+                                "SchedulerUtilClampedMax" : "1024",
+                                "SchedulerUtilClampedMin" : "1024",
+                                "SchedulerWakeupGranularityNS" : null,
+                                "NetCoreSomaxconn" : "4096",
+                                "KsmRun" : "0",
+                                "TransparentHugepage" : "always madvise [never]",
+                                "TransparentHugepageSize" : "2097152",
+                                "TransparentHugepageDefrag" : "always defer defer+madvise madvise [never]",
+                                "TransparentKHugepageDefrag" : "1",
+                                "HugePagesTotal" : "0",
+                                "HugePagesFree" : "0",
+                                "Governor" : null,
+                                "Driver" : null,
+                                "TunedProfiles" : null,
+                                "CmdLine" : "BOOT_IMAGE=/vmlinuz-6.8.0-35-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro serial console console=tty0 console=ttyS0",
+                                "GLIBC" : "ldd (Ubuntu GLIBC 2.39-0ubuntu8.2) 2.39",
+                                "Binutils" : "GNU ld (GNU Binutils for Ubuntu) 2.42",
+                                "Python" : null,
+                                "Python3" : "Python 3.12.3",
+                                "Java" : null,
+                                "OpenSSL" : "OpenSSL 3.0.13 30 Jan 2024 (Library: OpenSSL 3.0.13 30 Jan 2024)",
+                                "CoreFileSize(Blocks)" : "0",
+                                "DataSegSize(Kbytes)" : "unlimited",
+                                "FileSize(Blocks)" : "unlimited",
+                                "MaxLockedMemory(Kbytes)" : "32988332",
+                                "MaxMemorySize(Kbytes)" : "unlimited",
+                                "OpenFiles" : "1024",
+                                "StackSize(Kbytes)" : "8192",
+                                "CpuTime(Seconds)" : "unlimited",
+                                "VirtualMemory(Kbytes)" : "unlimited"
+                            },
+                            "Vulnerability" : {
+                                "GatherDataSampling" : "Not affected",
+                                "ItlbMultihit" : "Not affected",
+                                "L1tf" : "Not affected",
+                                "Mds" : "Not affected",
+                                "Meltdown" : "Not affected",
+                                "MmioStaleData" : "Not affected",
+                                "Retbleed" : "Not affected",
+                                "SpecStoreBypass" : "Mitigation; Speculative Store Bypass disabled via prctl",
+                                "SpectreV1" : "Mitigation; usercopy/swapgs barriers and __user pointer sanitization",
+                                "SpectreV2" : "Mitigation; Enhanced / Automatic IBRS; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected",
+                                "Srbds" : "Not affected",
+                                "TsxAsyncAbort" : "Not affected"
+                            },
+                            "docker_list" : null,
+                            "docker_details" : null,
+                            "ContainerOrchestration" : null
+                        },
+                        "Network" : {
+                            "PCISlots" : {
+
+                            },
+                            "NetworkAdapters" : [
+                                {
+                                    "PermanentMACAddress" : null,
+                                    "ProductName" : "Red Hat, Inc. Virtio 1.0 network device",
+                                    "LogicalName" : null,
+                                    "CurrentLinkSpeedMbps" : null,
+                                    "LinkStatus" : null
+                                }
+                            ]
+                        },
+                        "Processor" : [
+                            {
+                                "InstructionSet" : null,
+                                "Manufacturer" : "Advanced Micro Devices [AMD]",
+                                "MaxSpeedMHz" : "2000 MHz",
+                                "Model" : "AMD EPYC-Genoa Processor",
+                                "ProcessorArchitecture" : null,
+                                "TotalCores" : "32",
+                                "TotalThreads" : "64",
+                                "Socket" : "CPU 0",
+                                "Characteristics" : null,
+                                "CurrentClockSpeedMhz" : "2000 MHz",
+                                "SerialNumber" : null
+                            }
+                        ],
+                        "Memory" : {
+                            "MemoryList" : [
+                                {
+                                    "BoardCpuNumber" : null,
+                                    "BoardNumberOfSockets" : "16",
+                                    "BoardOperationalFrequency" : [
+                                        "Unknown"
+                                    ],
+                                    "BoardTotalMemorySizeTiB" : 0.25,
+                                    "BoardTotalCapacityTiB" : null
+                                }
+                            ],
+                            "Members" : [
+                                {
+                                    "ID" : "bank:0",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                },
+                                {
+                                    "ID" : "bank:1",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                },
+                                {
+                                    "ID" : "bank:2",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                },
+                                {
+                                    "ID" : "bank:3",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                },
+                                {
+                                    "ID" : "bank:4",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                },
+                                {
+                                    "ID" : "bank:5",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                },
+                                {
+                                    "ID" : "bank:6",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                },
+                                {
+                                    "ID" : "bank:7",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                },
+                                {
+                                    "ID" : "bank:8",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                },
+                                {
+                                    "ID" : "bank:9",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                },
+                                {
+                                    "ID" : "bank:10",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                },
+                                {
+                                    "ID" : "bank:11",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                },
+                                {
+                                    "ID" : "bank:12",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                },
+                                {
+                                    "ID" : "bank:13",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                },
+                                {
+                                    "ID" : "bank:14",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                },
+                                {
+                                    "ID" : "bank:15",
+                                    "RankCount" : "Unknown",
+                                    "Status" : {
+                                        "Health" : "OK",
+                                        "State" : "Enabled"
+                                    },
+                                    "Capacity" : "16 GiB",
+                                    "AllowedSpeedMHz" : "Unknown",
+                                    "OperatingSpeedMhz" : "Unknown",
+                                    "MemoryModuleType" : "DIMM RAM",
+                                    "Manufacturer" : "QEMU",
+                                    "MemoryDeviceType" : "RAM",
+                                    "BusWidthBits" : "Unknown",
+                                    "DataWidthBits" : "Unknown",
+                                    "PartNumber" : null,
+                                    "SerialNumber" : null,
+                                    "Channel" : null
+                                }
+                            ]
+                        },
+                        "Storage" : {
+                            "Storage" : [
+                                {
+                                    "Manufacturer" : null,
+                                    "Slot" : null,
+                                    "Model" : "Linuxdevice-mapper(linear)",
+                                    "logicalname" : "/dev/mapper/ubuntu--vg-ubuntu--lv",
+                                    "size" : "35.4GB",
+                                    "DiskType" : "dm",
+                                    "PartitionTable" : "loop",
+                                    "partitions" : [
+                                        {
+                                            "Number" : "1",
+                                            "Start" : "0.00B",
+                                            "End" : "35.4GB",
+                                            "Size" : "35.4GB",
+                                            "FileSystem" : "ext4",
+                                            "Name" : null
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Manufacturer" : null,
+                                    "Slot" : null,
+                                    "Model" : "VirtioBlockDevice",
+                                    "logicalname" : "/dev/vdb",
+                                    "size" : "537GB",
+                                    "DiskType" : "virtblk",
+                                    "PartitionTable" : "gpt",
+                                    "partitions" : [
+                                        {
+                                            "Number" : "1",
+                                            "Start" : "1049kB",
+                                            "End" : "537GB",
+                                            "Size" : "537GB",
+                                            "FileSystem" : "xfs",
+                                            "Name" : "primary"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Manufacturer" : null,
+                                    "Slot" : null,
+                                    "Model" : "VirtioBlockDevice",
+                                    "logicalname" : "/dev/vda",
+                                    "size" : "37.6GB",
+                                    "DiskType" : "virtblk",
+                                    "PartitionTable" : "gpt",
+                                    "partitions" : [
+                                        {
+                                            "Number" : "1",
+                                            "Start" : "1049kB",
+                                            "End" : "2097kB",
+                                            "Size" : "1049kB",
+                                            "FileSystem" : null,
+                                            "Name" : null
+                                        },
+                                        {
+                                            "Number" : "2",
+                                            "Start" : "2097kB",
+                                            "End" : "2150MB",
+                                            "Size" : "2147MB",
+                                            "FileSystem" : "ext4",
+                                            "Name" : null
+                                        },
+                                        {
+                                            "Number" : "3",
+                                            "Start" : "2150MB",
+                                            "End" : "37.6GB",
+                                            "Size" : "35.4GB",
+                                            "FileSystem" : null,
+                                            "Name" : null
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "benchmarkExecutionID" : "fc8142bb-45b0-4748-8fbd-4fa59dfb34ba",
+    "executionStatus" : "COMPLETED",
+    "benchmark" : "671f38700b0f881f82cf7b48",
+    "resultsInfo" : [
+        {
+            "summary" : "Result for Run 1",
+            "run" : "1",
+            "statistics" : [
+                {
+                    "metricsName" : "NOPM",
+                    "metricsValue" : "609316"
+                },
+                {
+                    "metricsName" : "TPM",
+                    "metricsValue" : "1847080"
+                }
+            ]
+        },
+        {
+            "summary" : "Result for Run 2",
+            "run" : "2",
+            "statistics" : [
+                {
+                    "metricsName" : "NOPM",
+                    "metricsValue" : "609905"
+                },
+                {
+                    "metricsName" : "TPM",
+                    "metricsValue" : "1847168"
+                }
+            ]
+        },
+        {
+            "summary" : "Result for Run 3",
+            "run" : "3",
+            "statistics" : [
+                {
+                    "metricsName" : "NOPM",
+                    "metricsValue" : "615261"
+                },
+                {
+                    "metricsName" : "TPM",
+                    "metricsValue" : "1865094"
+                }
+            ]
+        },
+        {
+            "summary" : "Result for Run 4",
+            "run" : "4",
+            "statistics" : [
+                {
+                    "metricsName" : "NOPM",
+                    "metricsValue" : "624582"
+                },
+                {
+                    "metricsName" : "TPM",
+                    "metricsValue" : "1893561"
+                }
+            ]
+        }
+    ],
+    "resultType" : "AUTOMATED",
+    "name" : "Benchmark_Test_Turin_96C_PR_UB24_WVOT4A23N_TPC-C-MariaDB_127210_run_1",
+    "groupName" : "Benchmark_Test_Turin_96C_PR_UB24_WVOT4A23N",
+    "benchmarkType" : "TPC-C-MariaDB",
+    "runCategory" : "Benchmark_Test",
+    "runType" : null,
+    "cpuModel" : "AMD EPYC-Genoa Processor",
+    "benchmarkName" : "TPC-C_MARIADB",
+    "benchmarkCategory" : "Database",
+    "benchmarkScheduleID" : "671f38700b0f881f82cf7b48",
+    "benchmarkTemplateID" : "6362a2f3b527ea9d33c62401",
+    "platformProfileURL" : null,
+    "resultFormat" : "BASE",
+    "isPublishedToEPYC" : false,
+    "currentPublicationStatus" : "NONE",
+    "publishAction" : "NONE",
+    "publicationErrorMessage" : null,
+    "isEPYCData" : false,
+    "source" : null,
+    "createdBy" : null,
+    "publishHistory" : [
+
+    ],
+    "customTagHistory" : [
+        {
+            "oldCustomTag" : [
+
+            ],
+            "currentCustomTag" : [
+                "Benchmark_Test_Turin_96C_PR_UB24_WVOT4A23N"
+            ],
+            "updatedBy" : {
+                "id" : "6261706a26dce9280a6679ad",
+                "role" : "TESTER",
+                "username" : "scheenep@amd.com",
+                "fullName" : "Cheenepalli, Sarika",
+                "email" : "sarika.cheenepalli@amd.com"
+            },
+            "updatedOn" : "2024-10-28T10:11:04.238+0000"
+        }
+    ],
+    "dataEntitlementHistory" : [
+
+    ],
+    "dataEntitlementTag" : [
+        "EPDW_TEST_GROUP_ONLY"
+    ],
+    "customTag" : [
+        "Benchmark_Test_Turin_96C_PR_UB24_WVOT4A23N"
+    ],
+    "dataSource" : null,
+    "publishToHDFS" : false,
+    "BenchmarkRunTimings" : [
+        {
+            "event" : "BenchmarkExecution",
+            "startTime" : "2024-10-28T07:23:09.981060+00:00",
+            "endTime" : "2024-10-28T09:57:46.511062+00:00",
+            "elapsedTimeInMins" : 154.6088
+        },
+        {
+            "event" : "SutSetUp",
+            "startTime" : "2024-10-28T07:23:21.245517+00:00",
+            "endTime" : "2024-10-28T07:24:38.778797+00:00",
+            "elapsedTimeInMins" : 1.2922
+        },
+        {
+            "event" : "PlatformProfile",
+            "startTime" : "2024-10-28T07:24:38.778977+00:00",
+            "endTime" : "2024-10-28T07:27:04.448864+00:00",
+            "elapsedTimeInMins" : 2.4278
+        },
+        {
+            "event" : "WorkloadProfiler_run1",
+            "startTime" : "2024-10-28T07:27:05.782183+00:00",
+            "endTime" : "2024-10-28T08:14:14.569214+00:00",
+            "elapsedTimeInMins" : 47.1465
+        },
+        {
+            "event" : "Masterscript_run1",
+            "startTime" : "2024-10-28T07:27:06.427711+00:00",
+            "endTime" : "2024-10-28T08:14:07.452860+00:00",
+            "elapsedTimeInMins" : 47.0171
+        },
+        {
+            "event" : "WorkloadProfiler_run2",
+            "startTime" : "2024-10-28T08:14:15.996616+00:00",
+            "endTime" : "2024-10-28T08:55:34.826299+00:00",
+            "elapsedTimeInMins" : 41.3138
+        },
+        {
+            "event" : "Masterscript_run2",
+            "startTime" : "2024-10-28T08:14:16.635985+00:00",
+            "endTime" : "2024-10-28T08:55:29.077416+00:00",
+            "elapsedTimeInMins" : 41.2074
+        },
+        {
+            "event" : "WorkloadProfiler_run3",
+            "startTime" : "2024-10-28T08:55:36.626058+00:00",
+            "endTime" : "2024-10-28T09:36:59.734595+00:00",
+            "elapsedTimeInMins" : 41.3851
+        },
+        {
+            "event" : "Masterscript_run3",
+            "startTime" : "2024-10-28T08:55:37.257160+00:00",
+            "endTime" : "2024-10-28T09:36:54.089642+00:00",
+            "elapsedTimeInMins" : 41.2805
+        },
+        {
+            "event" : "WorkloadProfiler_run4",
+            "startTime" : "2024-10-28T09:37:01.057459+00:00",
+            "endTime" : "2024-10-28T09:57:45.919113+00:00",
+            "elapsedTimeInMins" : 20.7477
+        },
+        {
+            "event" : "Masterscript_run4",
+            "startTime" : "2024-10-28T09:37:01.679319+00:00",
+            "endTime" : "2024-10-28T09:57:43.450795+00:00",
+            "elapsedTimeInMins" : 20.6962
+        }
+    ],
+    "powerConsumptionInfo" : [
+
+    ],
+    "templateType" : "DEFAULT",
+    "isResultLockout" : false,
+    "resultLockoutHistory" : [
+
+    ],
+    "logsInfo" : "http://deae-resultserver-prod.amd.com:80/fc8142bb-45b0-4748-8fbd-4fa59dfb34ba",
+    "batchId" : null,
+    "runConfigurations" : {
+        "ansible_setup" : true,
+        "server_setup" : "single",
+        "isTeardownRequired" : true,
+        "turbostat_on" : false,
+        "noOfIterations" : "4",
+        "scheduledAt" : "2024-10-28T07:08:00.000Z",
+        "warehouse_count" : "512",
+        "vusers" : "128",
+        "ramp_up" : "6",
+        "duration" : "10",
+        "skipBuildSchema" : true,
+        "priority" : "CRITICAL"
+    },
+    "createdOn" : "2024-10-28T09:57:48.044+0000",
+    "lastModifiedOn" : "2024-10-28T10:11:04.238+0000",
+    "__v" : "0"
+}
