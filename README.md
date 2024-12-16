@@ -18,7 +18,9 @@ There are 10 different benchmark datasets from each BIOS version:
   - **Peak**:  
     - Employs more aggressive compiler optimizations.  
     - Allows for benchmark-specific optimizations and a wider range of compiler flags.  
-    - Represents the best possible performance achievable with more extensive tuning.  
+    - Represents the best possible performance achievable with more extensive tuning.
+   
+- **TPC-C MARIA DB**  
 
 Example query for Gen AI for result analysis:
  
