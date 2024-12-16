@@ -1,23 +1,24 @@
 # EPDW-AI
-EPDW AI Analytics
 
-Please find the sample benchmark datasets.
-There are 10 different benchmark datasets from each BIOS version
+## EPDW AI Analytics
 
-- SPECJBB
+Please find the sample benchmark datasets.  
+There are 10 different benchmark datasets from each BIOS version:
 
-- SPECCPU 2017
-  SPEC CPU benchmarks provide two primary metrics: 'base' and 'peak' values.
-    Base:
-         Uses a more conservative set of compiler optimizations2.
-         Applies the same compiler flags for all benchmarks in the suite4.
-         Represents how a typical user might compile a program with standard flags4.
-    Peak:
-         Employs more aggressive compiler optimizations2.
-         Allows for benchmark-specific optimizations and a wider range of compiler flags4.
-         Represents the best possible performance achievable with more extensive tuning
+- **SPECJBB**
 
-- TPC-C Maria DB
+- **SPECCPU 2017**  
+  SPEC CPU benchmarks provide two primary metrics: 'base' and 'peak' values.  
+
+  - **Base**:  
+    - Uses a more conservative set of compiler optimizations.  
+    - Applies the same compiler flags for all benchmarks in the suite.  
+    - Represents how a typical user might compile a program with standard flags.  
+
+  - **Peak**:  
+    - Employs more aggressive compiler optimizations.  
+    - Allows for benchmark-specific optimizations and a wider range of compiler flags.  
+    - Represents the best possible performance achievable with more extensive tuning.  
 
 Example query for Gen AI for result analysis:
  
